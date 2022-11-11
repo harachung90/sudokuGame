@@ -22,7 +22,7 @@ hr {
 .tile {
     width: 48px;
     height: 48px;
-    border: 1px solid lightblue;
+    border: 1px solid lightgray;
 
     /* Text */
     font-size: 20px;
@@ -52,4 +52,20 @@ hr {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+}
+
+.number-selected {
+    background-color: lightgray;
+}
+
+.tile-start {
+    background-color: whitesmoke;
+}
+
+.horizontal-line {
+    border-bottom: 1px solid black;
+}
+
+.vertical-line {
+    border-right: 1px solid black;
 }
